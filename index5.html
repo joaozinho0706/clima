@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clima por Cidade</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    select {
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <h1>Veja o Clima Atual</h1>
+
+  <label for="citySelect">Escolha uma cidade:</label>
+  <select id="citySelect">
+    <option value="">--Selecione--</option>
+    <option value="saopaulo">São Paulo</option>
+    <option value="rio">Rio de Janeiro</option>
+    <option value="brasilia">Brasília</option>
+  </select>
+
+  <p id="result">Selecione uma cidade para ver o clima.</p>
+
+  <script src="script5.js"></script>
+</body>
+</html>
